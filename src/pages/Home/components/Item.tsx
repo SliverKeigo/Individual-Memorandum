@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Item = ({id, note, date, time, deleteData, submitData}) => {
   function deleteItem() {
     submitData.current = true

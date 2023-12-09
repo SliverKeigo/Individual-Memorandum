@@ -1,4 +1,4 @@
-import {useState} from "react";
+import React, {useState} from "react";
 import {v4 as uuidv4} from "uuid";
 
 const Edit = ({add, submitData}) => {
@@ -36,7 +36,7 @@ const Edit = ({add, submitData}) => {
 
   return (
     <div>
-      <h1>备忘录</h1>
+        <h1 style={{textAlign: 'center'}}>备忘录</h1>
       <p>记事</p>
       <input type={"text"}
              value={note}
